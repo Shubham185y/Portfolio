@@ -162,7 +162,7 @@ nav ul li a:hover:after{
 }
 .aboutsec{
     font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    text-transform: uppercase;
+    text-transform: capitalize;
     font-size: 22px;
     font-weight: 100;
     padding: 25px;
@@ -241,7 +241,7 @@ nav ul li a:hover:after{
     font-size: 20px;
     font-weight: 300px;
     border-radius: 10px;
-    transition: background 0.5s,transform 0.5s;
+    transition: all 0.5s,transform 0.5s;
 }
 .service-list div i{
     font-size: 50px;
@@ -439,6 +439,9 @@ nav .fas{
     nav img{
         height: 70px;
        
+    }
+    .aboutsec{
+        font-size: 16px;
     }
 }
 @media only screen and (max-width:1024px){
